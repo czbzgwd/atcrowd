@@ -62,6 +62,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
+        <!-- 引入公共边栏 -->
+        <jsp:include page="./common/sidebar.jsp"></jsp:include>
 			<div class="tree">
 				<%@include file="/WEB-INF/jsp/common/menu.jsp"%>
 			</div>
